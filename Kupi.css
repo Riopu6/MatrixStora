@@ -1,0 +1,45 @@
+h1{
+    color: white;
+}
+
+input:not(.not){
+    margin: 10px;
+    width: 500px;
+    height: 20px;
+}
+
+.center{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: inline-block;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.RADIO{
+    display: block;
+    margin: 0 auto;
+}
+
+#razmak{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+#Sub:hover{
+    background-color: greenyellow;
+}

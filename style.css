@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+    background-image: url("Images/BG.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Banner{
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    margin: 0px;
+}
+
+.ul-nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #777;
+    width: 100%;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(158, 180, 95);
+}
+
+.ToGreen {
+    background-color: #4CAF50;
+}
+
+.input-search{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article{
+    background-color: white;
+    width: 50%;
+}
+
+article img{
+    width: 100%;
+    max-width: 100%;
+}
+
+#Laptopi{
+    display: block;
+    width: 50%;
+    background-image: url("Images/RezerBladeLaptop.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    transition: opacity 750ms ease-in-out;
+}
+
+#Laptopi:hover{
+    opacity: 100%;
+}
+
+#Tipkovnice{
+    background-image: url("Images/TipkovnicaMain.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    transition: opacity 750ms ease-in-out;
+}
+
+#Tipkovnice:hover{
+    opacity: 100%;
+}
+
+
+
+#Misevi{
+    background-image: url("Images/MouseMain.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    transition: opacity 750ms ease-in-out;
+}
+
+#Misevi:hover{
+    opacity: 100%;
+}
+
+#PC{
+    background-image: url("Images/PCMain.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    transition: opacity 750ms ease-in-out;
+}
+
+#PC:hover{
+    opacity: 100%;
+}
+
+#Kontakt{
+    background-color: #5c5757;
+    opacity: 0.8;
+}
+
+#oNama{
+    background-color: #3f3c3c;
+    opacity: 0.8;
+}
+
+.kontakt-boja{
+    color: rgb(80, 165, 165);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #3f3c3c;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+h2{
+    text-align: center;
+    color: #3f3c3c;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+hr{
+    border: 1px thick;
+}
+
+#SearchIcon{
+    display: inline-block;
+    height: 20px;
+}

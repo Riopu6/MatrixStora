@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosarica</title>
+    <link rel="stylesheet" href="Icons/fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="shortcut icon" href="Images/StoreIcon.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Kupi.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <ul class="ul-nav">
+        <li><a href="Index.html#oNama">About</a></li>
+        <li><a href="Index.html#Kontakt">Contact</a></li>
+        <li><a href="Vijesti.html">News</a></li>
+        <li><a href="Index.html" class="ToGreen">Home</a></li>
+        <li><input class="input-search not" type="search" placeholder="Search..."/>
+            <i class="fas fa-search"></i>
+        </li>
+    </ul>   
+    <h1 style="text-align: center; margin-top: 100px; color: coral">Kupi Proizvod</h1>
+    <main>
+        <form>
+            <input type="email" placeholder="Email" required><br>
+            <input type="text" placeholder="Phone" required><br>
+            <input type="text" placeholder="Adress" required><br>
+            <div id="razmak">
+                <div class="center">
+                    <img src="Images/VIsa.png"><br>
+                    <input class="not RADIO" type="radio">
+                </div>
+
+                <div class="center">
+                    <img src="Images/BitCoin.png"><br>
+                    <input class="not RADIO" type="radio">
+                </div>
+                
+                <div class="center">
+                    <img src="Images/Cash.png"> <br>
+                    <input class="not RADIO" type="radio">
+                </div>
+            </div>
+                
+            <br>
+            <textarea  cols="70" rows="10" placeholder="Dodaci na narudžbu (nije obavezno)"></textarea>
+            <br><input class="left" type="submit" class="not" id="Sub"><br>
+        </form>
+    </main>
+</body>
+
+</html>

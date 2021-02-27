@@ -1,0 +1,130 @@
+body{
+    text-decoration: none;
+    text-align: left;
+    background-color:  #333333;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+
+.NAVI{
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-items: left;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.NAVI li{
+    padding: 0px 15px;
+}
+
+
+header{
+    background-image: url("../images/images/Cover.jpg");
+    width: 100%;
+    min-height: 540px;
+    max-height: 1080px;
+    align-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: firebrick;
+    margin: 15px;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+footer{
+    max-width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.redA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.ProizvodSlika{
+    max-width: 100%;
+}
+
+article{
+    background-color: #222222;
+    color: whitesmoke;
+    max-width: 400px;
+    padding: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.karakteristike{
+    color: #d89216;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.cijena{
+    color: #94b675;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.standard{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+a.kosarica{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(83, 187, 73);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 95%;
+    
+}
+
+a.kosarica:hover{
+    transition-duration: 1s;
+    color:whitesmoke;
+    background-color:#11a5fc;
+}
+
+del{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: normal;
+}
+p{
+    position: absolute;
+    bottom: 10px;
+    left: 1px;
+}
+
+ul{
+    margin-bottom: 50px;
+}

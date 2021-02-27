@@ -1,0 +1,13 @@
+img{
+    opacity: 0.8;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+#Slike{
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: nowrap;
+}
